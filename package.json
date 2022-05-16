@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-fastify-mongodb",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Fastify and MongoDB",
+  "main": "server.js",
+  "dependencies": {
+    "@fastify/auth": "^2.0.0",
+    "ajv": "^6.12.6",
+    "bcrypt": "^5.0.1",
+    "boom": "^7.3.0",
+    "dotenv": "^8.6.0",
+    "fastify": "^3.29.0",
+    "fastify-cors": "^3.0.3",
+    "fastify-multer": "^1.5.4",
+    "fastify-multipart": "^1.0.6",
+    "fastify-static": "^2.7.0",
+    "fastify-swagger": "^2.6.0",
+    "firebase-admin": "^8.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "mavin",
+  "license": "ISC"
+}
